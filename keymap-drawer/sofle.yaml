@@ -26,16 +26,16 @@ layers:
   - P
   - BSPC
   - TAB
-  - {t: A, h: CMENU}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
+  - A
+  - S
+  - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT SHIFT}
   - {t: G, h: raise}
   - {t: H, h: lower}
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT GUI}
+  - L
+  - ;
   - ''''
   - LSHFT
   - Z
@@ -113,8 +113,8 @@ layers:
   - Sft+}
   - Sft+\
   - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
+  - KP DOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,6 +268,6 @@ combos:
 - p: [17, 18]
   k: '~'
 - p: [29, 30]
-  k: \
+  k: '*'
 - p: [41, 44]
-  k: '|'
+  k: /
