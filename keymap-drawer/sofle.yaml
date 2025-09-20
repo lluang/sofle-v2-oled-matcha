@@ -1,20 +1,6 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
-  lower:
-  - '&studio_unlock'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
+  default:
   - '`'
   - '1'
   - '2'
@@ -26,8 +12,57 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
-  - {t: ▽, type: trans}
+  - DELETE
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - TAB
+  - {t: A, h: MENU}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: raise}
+  - {t: H, h: lower}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LEFT CONTROL
+  - LEFT GUI
+  - INS
+  - lower
+  - RET
+  - SPACE
+  - raise
+  - BACKSPACE
+  - MENU
+  - RIGHT ALT
+  lower:
+  - '&studio_unlock'
   - '!'
   - '@'
   - '#'
@@ -35,28 +70,52 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
+  - {t: ▽, type: trans}
+  - '~'
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - '&'
   - '|'
+  - '!'
+  - <
+  - '>'
   - {t: ▽, type: trans}
   - '='
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - {t: '`', type: held}
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - '['
   - ']'
-  - ;
-  - ':'
   - \
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - Sft+`
+  - Sft+-
+  - Sft+=
+  - Sft+[
+  - Sft+}
+  - Sft+\
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,36 +134,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
+  - '&mkp MB2'
+  - '&mmv MOVE_UP'
+  - '&mkp MB1'
+  - {t: '&msc SCRL_UP', type: held}
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  - DEL
-  - BSPC
+  - PG UP
+  - Ctl+HOME
   - {t: ▽, type: trans}
   - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - END
+  - PG DN
+  - Ctl+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,16 +182,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -154,8 +213,8 @@ layers:
   - RGB BRI
   - ''
   - ''
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - ''
@@ -178,10 +237,29 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
-  - ''
-  - {type: held}
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [36, 49]
+  k: CAPSLOCK
+- p: [3, 4]
+  k: (
+- p: [7, 8]
+  k: )
+- p: [15, 16]
+  k: <
+- p: [19, 20]
+  k: '>'
+- p: [28, 27]
+  k: '['
+- p: [31, 32]
+  k: ']'
+- p: [39, 40]
+  k: '{'
+- p: [45, 46]
+  k: '}'
