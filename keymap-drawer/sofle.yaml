@@ -94,9 +94,9 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
   - LEFT
   - DOWN
+  - UP
   - RIGHT
   - DEL
   - BSPC
