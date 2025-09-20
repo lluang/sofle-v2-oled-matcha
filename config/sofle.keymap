@@ -87,13 +87,13 @@
             key-positions = <17 18>;
         };
 
-        backslash {
-            bindings = <&kp BACKSLASH>;
+        asterisk {
+            bindings = <&kp ASTERISK>;
             key-positions = <29 30>;
         };
 
-        pipe {
-            bindings = <&kp PIPE>;
+        slash {
+            bindings = <&kp SLASH>;
             key-positions = <41 44>;
         };
     };
@@ -121,11 +121,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1         &kp N2            &kp N3              &kp N4            &kp N5                           &kp N6     &kp N7             &kp N8               &kp N9           &kp N0              &kp DELETE
-&kp ESC    &kp Q          &kp W             &kp E               &kp R             &kp T                            &kp Y      &kp U              &kp I                &kp O            &kp P               &kp BSPC
-&kp TAB    &mt K_CMENU A  &mt LEFT_ALT S    &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &lt 2 G                          &lt 1 H    &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &kp SQT
-&kp LSHFT  &kp Z          &kp X             &kp C               &kp V             &kp B    &kp C_MUTE    &mkp MB1  &kp N      &kp M              &kp COMMA            &kp DOT          &kp FSLH            &kp RSHFT
-                          &kp LEFT_CONTROL  &kp LEFT_GUI        &kp INS           &kp RET  &mo 1         &mo 2     &kp SPACE  &kp DEL            &kp K_CMENU          &kp RIGHT_ALT
+&kp GRAVE  &kp N1  &kp N2            &kp N3          &kp N4            &kp N5                           &kp N6     &kp N7             &kp N8               &kp N9         &kp N0         &kp DELETE
+&kp ESC    &kp Q   &kp W             &kp E           &kp R             &kp T                            &kp Y      &kp U              &kp I                &kp O          &kp P          &kp BSPC
+&kp TAB    &kp A   &kp S             &mt LEFT_ALT D  &mt LEFT_SHIFT F  &lt 2 G                          &lt 1 H    &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &kp L          &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z   &kp X             &kp C           &kp V             &kp B    &kp C_MUTE    &mkp MB1  &kp N      &kp M              &kp COMMA            &kp DOT        &kp FSLH       &kp RSHFT
+                   &kp LEFT_CONTROL  &kp LEFT_GUI    &kp INS           &kp RET  &mo 1         &mo 2     &kp SPACE  &kp DEL            &kp K_CMENU          &kp RIGHT_ALT
             >;
 
             sensor-bindings =
@@ -145,11 +145,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp EXCL   &kp AT       &kp HASH      &kp DOLLAR  &kp PERCENT                    &kp CARET      &kp AMPERSAND  &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp TILDE       &kp SLASH  &kp N7       &kp NUMBER_8  &kp N9      &kp MINUS                      &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
-&kp EQUAL       &kp STAR   &kp N4       &kp N5        &kp N6      &kp PLUS                       &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-&rassign        &kp DOT    &kp N1       &kp N2        &kp N3      &kp N0       &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
-                           &bootloader  &trans        &trans      &trans       &trans    &trans  &trans         &trans         &trans         &trans
+&studio_unlock  &kp EXCL   &kp AT       &kp HASH         &kp DOLLAR  &kp PERCENT                    &kp CARET      &kp AMPERSAND  &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp TILDE       &kp SLASH  &kp N7       &kp NUMBER_8     &kp N9      &kp MINUS                      &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
+&kp EQUAL       &kp STAR   &kp N4       &kp N5           &kp N6      &kp PLUS                       &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+&rassign        &kp DOT    &kp N1       &kp N2           &kp N3      &kp N0       &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
+                           &bootloader  &kp KP_NUMBER_0  &kp KP_DOT  &trans       &trans    &trans  &trans         &trans         &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
