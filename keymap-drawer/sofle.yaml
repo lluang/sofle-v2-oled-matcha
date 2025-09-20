@@ -26,7 +26,7 @@ layers:
   - P
   - BSPC
   - TAB
-  - {t: A, h: MENU}
+  - {t: A, h: CMENU}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
@@ -58,8 +58,8 @@ layers:
   - lower
   - raise
   - SPACE
-  - AC DEL
-  - MENU
+  - DEL
+  - CMENU
   - RIGHT ALT
   lower:
   - '&studio_unlock'
