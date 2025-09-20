@@ -58,7 +58,7 @@ layers:
   - RET
   - SPACE
   - raise
-  - BACKSPACE
+  - AC DEL
   - MENU
   - RIGHT ALT
   lower:
