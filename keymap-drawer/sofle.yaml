@@ -26,16 +26,16 @@ layers:
   - P
   - BSPC
   - TAB
-  - A
-  - S
-  - {t: D, h: LEFT ALT}
+  - {t: A, h: CMENU}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
   - {t: G, h: raise}
   - {t: H, h: lower}
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT CONTROL}
-  - L
-  - ;
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
   - ''''
   - LSHFT
   - Z
@@ -123,18 +123,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - OUT USB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F12
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -147,6 +135,18 @@ layers:
   - F9
   - F10
   - F11
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
   - '&msc SCRL_LEFT'
   - '&msc SCRL_RIGHT'
   - '&mkp MB2'
@@ -214,11 +214,11 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: MUTE, type: held}
+  - VOL DN
+  - VOL UP
+  - BRI DEC
+  - BRI INC
   - ''
   - ''
   - ''
@@ -228,9 +228,9 @@ layers:
   - ''
   - RGB TOG
   - ''
-  - ''
-  - ''
-  - ''
+  - AC BACK
+  - PLAY PAUSE
+  - AC FORWARD
   - ''
   - ''
   - ''
