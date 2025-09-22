@@ -103,7 +103,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '0'
+  - KP EQUAL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+`
@@ -135,7 +135,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - ''
@@ -159,7 +159,7 @@ layers:
   - RIGHT
   - PG UP
   - Ctl+HOME
-  - {t: ▽, type: trans}
+  - ''
   - UNDO
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -173,9 +173,9 @@ layers:
   - END
   - PG DN
   - Ctl+END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
+  - LEFT GUI
+  - INS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,11 +197,6 @@ layers:
   - ''
   - ''
   - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
   - ''
   - ''
   - ''
@@ -209,8 +204,13 @@ layers:
   - ''
   - ''
   - ''
-  - RGB BRD
-  - RGB BRI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - {type: held}
@@ -226,8 +226,8 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - AC BACK
   - PLAY PAUSE
   - AC FORWARD
@@ -263,11 +263,9 @@ combos:
   k: '{'
 - p: [45, 46]
   k: '}'
-- p: [5, 6]
+- p: [18, 17]
   k: '`'
-- p: [17, 18]
+- p: [30, 29]
   k: '~'
-- p: [29, 30]
-  k: '*'
 - p: [41, 44]
-  k: /
+  k: '#'
