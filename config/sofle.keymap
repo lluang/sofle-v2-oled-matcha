@@ -51,22 +51,22 @@
 
         leftparens {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <3 4>;
+            key-positions = <15 16>;
         };
 
         rightparens {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 8>;
+            key-positions = <20 19>;
         };
 
         lessthan {
             bindings = <&kp LT>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
         };
 
         greaterthan {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
         };
 
         leftbracket {
@@ -102,6 +102,11 @@
         asterisk {
             bindings = <&kp HASH>;
             key-positions = <41 44>;
+        };
+
+        equalcombo {
+            bindings = <&kp EQUAL>;
+            key-positions = <5 6>;
         };
     };
 
