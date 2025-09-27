@@ -89,13 +89,13 @@
             key-positions = <45 46>;
         };
 
-        grave {
-            bindings = <&kp GRAVE>;
+        colon {
+            bindings = <&kp COLON>;
             key-positions = <18 17>;
         };
 
-        tilde {
-            bindings = <&kp TILDE>;
+        question {
+            bindings = <&kp QUESTION>;
             key-positions = <30 29>;
         };
 
@@ -133,8 +133,8 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1         &kp N2            &kp N3              &kp N4            &kp N5                           &kp N6     &kp N7        &kp N8               &kp N9           &kp N0                  &kp DELETE
-&kp ESC    &kp Q          &kp W             &kp E               &kp R             &kp T                            &kp Y      &kp U         &kp I                &kp O            &kp P                   &kp BSPC
+&kp GRAVE  &kp N1         &kp N2            &kp N3              &kp N4            &kp N5                           &kp N6     &kp N7        &kp N8               &kp N9           &kp N0                  &kp BACKSPACE
+&kp ESC    &kp Q          &kp W             &kp E               &kp R             &kp T                            &kp Y      &kp U         &kp I                &kp O            &kp P                   &kp BACKSLASH
 &kp TAB    &ht K_CMENU A  &ht LEFT_ALT S    &ht LEFT_CONTROL D  &ht LEFT_SHIFT F  &lt 2 G                          &lt 1 H    &ht RSHIFT J  &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &ht LEFT_GUI SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z          &kp X             &kp C               &kp V             &kp B    &kp C_MUTE    &mkp MB1  &kp N      &kp M         &kp COMMA            &kp DOT          &kp FSLH                &kp RSHFT
                           &kp LEFT_CONTROL  &kp LEFT_GUI        &kp INS           &kp RET  &mo 1         &mo 2     &kp SPACE  &kp DEL       &kp K_CMENU          &kp RIGHT_ALT
@@ -178,8 +178,8 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans          &kp F1           &kp F2            &kp F3          &kp F4           &kp F5                            &kp F6    &kp F7        &kp F8         &kp F9       &kp F10    &kp F11
-&none           &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &kp F12
+&trans          &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &none
+&none           &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &none
 &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB2          &mmv MOVE_UP    &mkp MB1         &msc SCRL_UP                      &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT    &kp PG_UP  &kp LC(HOME)
 &none           &kp K_UNDO       &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &trans  &kp HOME  &kp LC(LEFT)  &kp LC(RIGHT)  &kp END      &kp PG_DN  &kp LC(END)
                                  &kp LEFT_CONTROL  &kp LEFT_GUI    &kp INS          &trans          &trans    &trans  &trans    &trans        &trans         &bootloader
@@ -199,8 +199,8 @@
             label = "adjust";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none          &none             &none             &none          &none          &none
-&ext_power EP_TOG  &none         &none         &none         &none         &none                           &none          &none             &none             &none          &none          &none
-&none              &none         &none         &none         &none         &none                           &kp C_MUTE     &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DEC  &kp C_BRI_INC  &none
+&ext_power EP_TOG  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                          &kp F6         &kp F7            &kp F8            &kp F9         &kp F10        &kp F11
+&none              &none         &none         &none         &none         &none                           &kp C_MUTE     &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DEC  &kp C_BRI_INC  &kp F12
 &none              &none         &none         &none         &none         &none         &trans    &trans  &kp C_AC_BACK  &kp C_PLAY_PAUSE  &kp C_AC_FORWARD  &none          &none          &none
                                  &none         &none         &none         &none         &none     &none   &none          &none             &none             &none
             >;
