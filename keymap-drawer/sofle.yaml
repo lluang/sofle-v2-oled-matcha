@@ -271,3 +271,7 @@ combos:
   k: '#'
 - p: [5, 6]
   k: '='
+- p: [22, 20, 21]
+  k: '&VCS_command'
+- p: [21, 22]
+  k: '&VSC_openfile'
