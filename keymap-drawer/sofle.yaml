@@ -103,7 +103,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - KP EQUAL
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+`
@@ -272,6 +272,6 @@ combos:
 - p: [5, 6]
   k: '='
 - p: [22, 20, 21]
-  k: '&VCS_command'
+  k: Ctl+Sft+P
 - p: [21, 22]
-  k: '&VSC_openfile'
+  k: Ctl+P
