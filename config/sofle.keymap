@@ -110,12 +110,12 @@
         };
 
         vsccommand {
-            bindings = <&VCS_command>;
+            bindings = <&kp LC(LS(P))>;
             key-positions = <22 20 21>;
         };
 
         vscopenfile {
-            bindings = <&VSC_openfile>;
+            bindings = <&kp LC(P)>;
             key-positions = <21 22>;
         };
     };
@@ -126,20 +126,6 @@
             #binding-cells = <0>;
             bindings = <&kp LT &kp MINUS>;
             label = "RASSIGN";
-        };
-
-        VSC_openfile: VSC_openfile {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(P)>;
-            label = "VSC_OPENFILE";
-        };
-
-        VCS_command: VCS_command {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp P &kp O>;
-            label = "VCS_COMMAND";
         };
     };
 
@@ -166,7 +152,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+                <&inc_dec_kp DOWN UP>;
         };
 
         lower_layer {
@@ -181,11 +167,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp EXCL   &kp AT       &kp HASH         &kp DOLLAR  &kp PERCENT                     &kp CARET      &kp AMPERSAND  &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp TILDE       &kp SLASH  &kp N7       &kp NUMBER_8     &kp N9      &kp MINUS                       &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
-&kp EQUAL       &kp STAR   &kp N4       &kp N5           &kp N6      &kp PLUS                        &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-&rassign        &kp DOT    &kp N1       &kp N2           &kp N3      &kp KP_EQUAL  &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
-                           &bootloader  &kp KP_NUMBER_0  &kp KP_DOT  &trans        &trans    &trans  &trans         &trans         &trans         &trans
+&studio_unlock  &kp EXCL   &kp AT       &kp HASH         &kp DOLLAR  &kp PERCENT                    &kp CARET      &kp AMPERSAND  &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp TILDE       &kp SLASH  &kp N7       &kp NUMBER_8     &kp N9      &kp MINUS                      &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
+&kp EQUAL       &kp STAR   &kp N4       &kp N5           &kp N6      &kp PLUS                       &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+&rassign        &kp DOT    &kp N1       &kp N2           &kp N3      &kp EQUAL    &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
+                           &bootloader  &kp KP_NUMBER_0  &kp KP_DOT  &trans       &trans    &trans  &trans         &trans         &trans         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -209,7 +195,9 @@
                                  &kp LEFT_CONTROL  &kp LEFT_GUI    &kp INS          &trans          &trans    &trans  &trans    &trans        &trans         &bootloader
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp UP DOWN>;
         };
 
         adjust_layer {
