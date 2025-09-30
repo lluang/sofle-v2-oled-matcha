@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - BACKSPACE
-  - ESC
+  - TAB
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - TAB
+  - ESC
   - {t: A, h: CMENU}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
