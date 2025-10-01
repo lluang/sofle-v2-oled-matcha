@@ -223,16 +223,16 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - PRINTSCREEN
+  - SCROLLLOCK
+  - PAUSE BREAK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - AC BACK
   - PLAY PAUSE
   - AC FORWARD
-  - ''
-  - ''
+  - Ctl+-
+  - Ctl+Sft+=
   - ''
   - ''
   - ''
