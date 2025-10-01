@@ -143,11 +143,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1         &kp N2            &kp N3              &kp N4            &kp N5                           &kp N6     &kp N7        &kp N8               &kp N9           &kp N0                  &kp BACKSPACE
-&kp TAB    &kp Q          &kp W             &kp E               &kp R             &kp T                            &kp Y      &kp U         &kp I                &kp O            &kp P                   &kp BACKSLASH
-&kp ESC    &ht K_CMENU A  &ht LEFT_ALT S    &ht LEFT_CONTROL D  &ht LEFT_SHIFT F  &lt 2 G                          &lt 1 H    &ht RSHIFT J  &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &ht LEFT_GUI SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z          &kp X             &kp C               &kp V             &kp B    &kp C_MUTE    &mkp MB1  &kp N      &kp M         &kp COMMA            &kp DOT          &kp FSLH                &kp RSHFT
-                          &kp LEFT_CONTROL  &kp LEFT_GUI        &kp INS           &kp RET  &mo 1         &mo 2     &kp SPACE  &kp DEL       &kp K_CMENU          &kp RIGHT_ALT
+&kp GRAVE  &kp N1         &kp N2            &kp N3              &kp N4            &kp N5                           &kp N6     &kp N7         &kp N8               &kp N9           &kp N0                  &kp DEL
+&kp TAB    &kp Q          &kp W             &kp E               &kp R             &kp T                            &kp Y      &kp U          &kp I                &kp O            &kp P                   &kp BACKSLASH
+&kp ESC    &ht K_CMENU A  &ht LEFT_ALT S    &ht LEFT_CONTROL D  &ht LEFT_SHIFT F  &lt 2 G                          &lt 1 H    &ht RSHIFT J   &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &ht LEFT_GUI SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z          &kp X             &kp C               &kp V             &kp B    &kp C_MUTE    &mkp MB1  &kp N      &kp M          &kp COMMA            &kp DOT          &kp FSLH                &kp RSHFT
+                          &kp LEFT_CONTROL  &kp LEFT_GUI        &kp INS           &kp RET  &mo 1         &mo 2     &kp SPACE  &kp BACKSPACE  &kp K_CMENU          &kp RIGHT_ALT
             >;
 
             sensor-bindings =
