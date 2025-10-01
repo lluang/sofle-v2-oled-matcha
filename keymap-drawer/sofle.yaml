@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - DEL
   - TAB
   - Q
   - W
@@ -58,7 +58,7 @@ layers:
   - lower
   - raise
   - SPACE
-  - DEL
+  - BACKSPACE
   - CMENU
   - RIGHT ALT
   lower:
