@@ -89,13 +89,13 @@
             key-positions = <45 46>;
         };
 
-        colon {
-            bindings = <&kp COLON>;
+        rassign {
+            bindings = <&rassign>;
             key-positions = <18 17>;
         };
 
-        question {
-            bindings = <&kp QUESTION>;
+        rpipe {
+            bindings = <&R_pipe>;
             key-positions = <30 29>;
         };
 
@@ -126,6 +126,13 @@
             #binding-cells = <0>;
             bindings = <&kp LT &kp MINUS>;
             label = "RASSIGN";
+        };
+
+        R_pipe: R_pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE &kp GT>;
+            label = "R_PIPE";
         };
     };
 
@@ -168,9 +175,9 @@
 
             bindings = <
 &studio_unlock  &kp EXCL   &kp AT       &kp HASH         &kp DOLLAR  &kp PERCENT                    &kp CARET      &kp AMPERSAND  &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp TILDE       &kp SLASH  &kp N7       &kp NUMBER_8     &kp N9      &kp MINUS                      &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
-&kp EQUAL       &kp STAR   &kp N4       &kp N5           &kp N6      &kp PLUS                       &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-&rassign        &kp DOT    &kp N1       &kp N2           &kp N3      &kp EQUAL    &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
+&trans          &kp SLASH  &kp N7       &kp NUMBER_8     &kp N9      &kp MINUS                      &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
+&trans          &kp STAR   &kp N4       &kp N5           &kp N6      &kp PLUS                       &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+&trans          &kp DOT    &kp N1       &kp N2           &kp N3      &kp EQUAL    &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
                            &bootloader  &kp KP_NUMBER_0  &kp KP_DOT  &trans       &trans    &trans  &trans         &trans         &trans         &trans
             >;
 
@@ -188,11 +195,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans          &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &none
-&none           &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &none
-&msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB2          &mmv MOVE_UP    &mkp MB1         &msc SCRL_UP                      &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT    &kp PG_UP  &kp LC(HOME)
-&none           &kp K_UNDO       &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &trans  &kp HOME  &kp LC(LEFT)  &kp LC(RIGHT)  &kp END      &kp PG_DN  &kp LC(END)
-                                 &kp LEFT_CONTROL  &kp LEFT_GUI    &kp INS          &trans          &trans    &trans  &trans    &trans        &trans         &bootloader
+&trans  &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &none
+&trans  &none            &none             &none           &none            &none                             &none     &none         &none          &none        &none      &none
+&trans  &msc SCRL_RIGHT  &mkp MB2          &mmv MOVE_UP    &mkp MB1         &msc SCRL_UP                      &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT    &kp PG_UP  &kp LC(HOME)
+&trans  &msc SCRL_LEFT   &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &trans  &kp HOME  &kp LC(LEFT)  &kp LC(RIGHT)  &kp END      &kp PG_DN  &kp LC(END)
+                         &kp LEFT_CONTROL  &kp LEFT_GUI    &kp INS          &trans          &trans    &trans  &trans    &trans        &trans         &bootloader
             >;
 
             sensor-bindings =
@@ -213,7 +220,7 @@
 &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4                       &none          &none             &none             &none          &none              &none
 &ext_power EP_TOG  &kp F1        &kp F2        &kp F3           &kp F4          &kp F5                             &kp F6         &kp F7            &kp F8            &kp F9         &kp F10            &kp F11
 &none              &none         &none         &none            &none           &none                              &kp C_MUTE     &kp C_VOL_DN      &kp C_VOL_UP      &kp C_BRI_DEC  &kp C_BRI_INC      &kp F12
-&none              &none         &none         &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans    &trans  &kp C_AC_BACK  &kp C_PLAY_PAUSE  &kp C_AC_FORWARD  &kp LC(MINUS)  &kp LC(LS(EQUAL))  &none
+&none              &kp LC(Z)     &kp LC(Y)     &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans    &trans  &kp C_AC_BACK  &kp C_PLAY_PAUSE  &kp C_AC_FORWARD  &kp LC(MINUS)  &kp LC(LS(EQUAL))  &none
                                  &none         &none            &none           &none            &none     &none   &none          &none             &none             &none
             >;
         };
