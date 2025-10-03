@@ -177,7 +177,7 @@
 &studio_unlock  &kp EXCL   &kp AT       &kp HASH         &kp DOLLAR  &kp PERCENT                    &kp CARET      &kp AMPERSAND  &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans          &kp SLASH  &kp N7       &kp NUMBER_8     &kp N9      &kp MINUS                      &kp AMPERSAND  &kp PIPE       &kp EXCL       &kp LESS_THAN         &kp GREATER_THAN       &trans
 &trans          &kp STAR   &kp N4       &kp N5           &kp N6      &kp PLUS                       &kp GRAVE      &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-&trans          &kp DOT    &kp N1       &kp N2           &kp N3      &kp EQUAL    &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
+&trans          &kp COLON  &kp N1       &kp N2           &kp N3      &kp EQUAL    &trans    &trans  &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)    &kp LS(BACKSLASH)
                            &bootloader  &kp KP_NUMBER_0  &kp KP_DOT  &trans       &trans    &trans  &trans         &trans         &trans         &trans
             >;
 
