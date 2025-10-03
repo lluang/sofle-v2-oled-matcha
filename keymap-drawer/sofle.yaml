@@ -74,7 +74,7 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - '~'
+  - {t: ▽, type: trans}
   - /
   - '7'
   - '8'
@@ -86,7 +86,7 @@ layers:
   - <
   - '>'
   - {t: ▽, type: trans}
-  - '='
+  - {t: ▽, type: trans}
   - '*'
   - '4'
   - '5'
@@ -98,7 +98,7 @@ layers:
   - '['
   - ']'
   - \
-  - '&rassign'
+  - {t: ▽, type: trans}
   - .
   - '1'
   - '2'
@@ -135,6 +135,7 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -146,8 +147,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - '&msc SCRL_LEFT'
+  - {t: ▽, type: trans}
   - '&msc SCRL_RIGHT'
   - '&mkp MB2'
   - '&mmv MOVE_UP'
@@ -159,8 +159,8 @@ layers:
   - RIGHT
   - PG UP
   - Ctl+HOME
-  - ''
-  - UNDO
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
@@ -221,8 +221,8 @@ layers:
   - BRI INC
   - F12
   - ''
-  - ''
-  - ''
+  - Ctl+Z
+  - Ctl+Y
   - PRINTSCREEN
   - SCROLLLOCK
   - PAUSE BREAK
@@ -264,9 +264,9 @@ combos:
 - p: [45, 46]
   k: '}'
 - p: [18, 17]
-  k: ':'
+  k: '&rassign'
 - p: [30, 29]
-  k: '?'
+  k: '&R_pipe'
 - p: [41, 44]
   k: '#'
 - p: [5, 6]
