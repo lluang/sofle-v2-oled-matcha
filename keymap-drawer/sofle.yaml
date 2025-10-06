@@ -30,8 +30,8 @@ layers:
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
-  - {t: G, h: raise}
-  - {t: H, h: lower}
+  - {t: G, h: lower}
+  - {t: H, h: raise}
   - {t: J, h: RSHIFT}
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
@@ -55,8 +55,8 @@ layers:
   - LEFT GUI
   - INS
   - SPACE
-  - lower
   - raise
+  - lower
   - ENTER
   - BACKSPACE
   - CMENU
@@ -88,11 +88,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - \
   - '`'
-  - {t: '-', type: held}
+  - \
+  - '['
+  - {t: ']', type: held}
+  - '-'
   - '4'
   - '5'
   - '6'
@@ -100,10 +100,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+{
-  - Sft+}
+  - Sft+`
   - '|'
-  - '~'
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+_
@@ -152,8 +152,8 @@ layers:
   - '&mkp MB2'
   - '&mmv MOVE_UP'
   - '&mkp MB1'
-  - {t: '&msc SCRL_UP', type: held}
-  - LEFT
+  - '&msc SCRL_UP'
+  - {t: LEFT, type: held}
   - DOWN
   - UP
   - RIGHT
@@ -221,8 +221,8 @@ layers:
   - BRI INC
   - F12
   - ''
-  - Ctl+Z
-  - Ctl+Y
+  - ''
+  - ''
   - PRINTSCREEN
   - SCROLLLOCK
   - PAUSE BREAK
@@ -235,14 +235,14 @@ layers:
   - Ctl+Sft+=
   - ''
   - ''
+  - Ctl+Z
+  - Ctl+Y
+  - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - Sft+Gui+LEFT
+  - Gui+RIGHT
   - ''
 combos:
 - p: [36, 49]
