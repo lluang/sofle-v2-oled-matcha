@@ -87,8 +87,8 @@ layers:
   - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '`'
+  - ''''
   - \
   - '['
   - {t: ']', type: held}
@@ -99,7 +99,7 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+`
   - Sft+`
   - '|'
   - '{'
@@ -110,7 +110,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - Sft+=
+  - '='
   - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
@@ -235,14 +235,14 @@ layers:
   - Ctl+Sft+=
   - ''
   - ''
+  - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+Y
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
   - Sft+Gui+LEFT
-  - Gui+RIGHT
+  - Sft+Gui+RIGHT
+  - {t: ▽, type: trans}
   - ''
 combos:
 - p: [36, 49]
