@@ -53,12 +53,12 @@ layers:
   - RSHFT
   - LEFT CONTROL
   - LEFT GUI
-  - INS
-  - SPACE
+  - {t: INS, h: LCTRL}
+  - ENTER
   - raise
   - lower
-  - ENTER
-  - BACKSPACE
+  - SPACE
+  - {t: BACKSPACE, h: LALT}
   - CMENU
   - RIGHT ALT
   lower:
@@ -75,11 +75,11 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - <
+  - '>'
   - '&'
   - '|'
   - '!'
-  - <
-  - '>'
   - /
   - '7'
   - '8'
@@ -87,11 +87,11 @@ layers:
   - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - ''''
-  - \
   - '['
-  - {t: ']', type: held}
+  - ']'
+  - \
+  - ''''
+  - {t: '`', type: held}
   - '-'
   - '4'
   - '5'
@@ -99,11 +99,11 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+`
-  - Sft+`
+  - Sft+{
+  - Sft+}
   - '|'
-  - '{'
-  - '}'
+  - Sft+'
+  - Sft+`
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+_
@@ -112,7 +112,7 @@ layers:
   - '3'
   - '='
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - {t: ▽, type: trans}
   - KP 0
   - .
-  - {t: ▽, type: trans}
+  - '&bootloader'
   raise:
   - {t: ▽, type: trans}
   - ''
@@ -173,16 +173,16 @@ layers:
   - END
   - PG DN
   - Ctl+END
-  - LEFT CONTROL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
