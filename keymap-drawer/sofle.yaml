@@ -26,7 +26,7 @@ layers:
   - P
   - \
   - ESC
-  - {t: A, h: CMENU}
+  - {t: A, h: LCMD}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
