@@ -53,12 +53,12 @@ layers:
   - RSHFT
   - LEFT CONTROL
   - LEFT GUI
-  - {t: INS, h: LCTRL}
+  - {t: INS, h: LEFT SHIFT}
   - ENTER
   - raise
   - lower
   - SPACE
-  - {t: BACKSPACE, h: LALT}
+  - {t: BACKSPACE, h: RIGHT SHIFT}
   - CMENU
   - RIGHT ALT
   lower:
@@ -224,8 +224,8 @@ layers:
   - ''
   - ''
   - PRINTSCREEN
-  - SCROLLLOCK
-  - PAUSE BREAK
+  - {t: Alt+LEFT ARROW, h: SCROLLLOCK}
+  - {t: Alt+RIGHT ARROW, h: PAUSE BREAK}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - AC BACK
