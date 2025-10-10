@@ -180,8 +180,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: RIGHT SHIFT}
+  - CMENU
   - {t: ▽, type: trans}
   adjust:
   - BT CLR
