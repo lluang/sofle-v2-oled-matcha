@@ -113,7 +113,7 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,7 +174,7 @@ layers:
   - PG DN
   - Ctl+END
   - '&bootloader'
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -235,7 +235,7 @@ layers:
   - Ctl+Sft+=
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - Ctl+Z
   - Ctl+Y
   - ''
