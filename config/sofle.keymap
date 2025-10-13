@@ -218,7 +218,7 @@
 
             label = "adjust";
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3                   &out OUT_TOG                                       &none             &none              &none             &none          &none              &none
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &out OUT_USB                   &out OUT_TOG                                       &none             &none              &none             &none          &none              &none
 &ext_power EP_TOG  &kp F1        &kp F2        &kp F3           &kp F4                         &kp F5                                             &kp F6            &kp F7             &kp F8            &kp F9         &kp F10            &kp F11
 &none              &none         &none         &none            &none                          &none                                              &kp C_MUTE        &kp C_VOL_DN       &kp C_VOL_UP      &kp C_BRI_DEC  &kp C_BRI_INC      &kp F12
 &none              &none         &none         &kp PRINTSCREEN  &mt SCROLLLOCK LA(LEFT_ARROW)  &mt PAUSE_BREAK LA(RIGHT_ARROW)  &trans    &trans  &kp C_AC_BACK     &kp C_PLAY_PAUSE   &kp C_AC_FORWARD  &kp LC(MINUS)  &kp LC(LS(EQUAL))  &none
