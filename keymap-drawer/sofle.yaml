@@ -26,7 +26,7 @@ layers:
   - P
   - \
   - ESC
-  - {t: A, h: LCMD}
+  - A
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
@@ -35,7 +35,7 @@ layers:
   - {t: J, h: RSHIFT}
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: LEFT GUI}
+  - ;
   - ''''
   - LSHFT
   - Z
