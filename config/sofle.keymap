@@ -175,11 +175,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp EXCL            &kp AT               &kp HASH       &kp DOLLAR            &kp PERCENT                      &kp CARET           &kp AMPERSAND    &kp STAR      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans          &kp LESS_THAN       &kp GREATER_THAN     &kp AMPS       &kp PIPE              &kp EXCL                         &kp SLASH           &kp N7           &kp N8        &kp N9                &kp ASTERISK           &trans
-&trans          &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &kp BACKSLASH  &kp SQT               &kp GRAVE                        &kp MINUS           &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6          &kp PLUS               &trans
-&trans          &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp PIPE       &kp LS(SINGLE_QUOTE)  &kp LS(GRAVE)  &trans    &trans  &kp LS(UNDERSCORE)  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3          &kp EQUAL              &trans
-                                    &trans               &to 0          &trans                &trans         &trans    &trans  &trans              &kp KP_NUMBER_0  &kp PERIOD    &bootloader
+&studio_unlock  &kp EXCL            &kp AT               &kp HASH       &kp DOLLAR            &kp PERCENT                      &kp CARET           &kp AMPERSAND  &kp STAR      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans          &kp LESS_THAN       &kp GREATER_THAN     &kp AMPS       &kp PIPE              &kp EXCL                         &kp SLASH           &kp N7         &kp N8        &kp N9                &kp ASTERISK           &trans
+&trans          &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &kp BACKSLASH  &kp SQT               &kp GRAVE                        &kp MINUS           &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6          &kp PLUS               &trans
+&trans          &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp PIPE       &kp LS(SINGLE_QUOTE)  &kp LS(GRAVE)  &trans    &trans  &kp LS(UNDERSCORE)  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp EQUAL              &trans
+                                    &trans               &to 0          &trans                &trans         &trans    &trans  &trans              &kp N0         &kp PERIOD    &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -196,11 +196,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &none            &none           &none           &none            &none                             &none     &none                      &none          &none      &none      &none
-&trans  &none            &none           &none           &none            &none                             &none     &none                      &none          &none      &none      &none
-&trans  &msc SCRL_RIGHT  &mkp MB2        &mmv MOVE_UP    &mkp MB1         &msc SCRL_UP                      &kp LEFT  &kp DOWN                   &kp UP         &kp RIGHT  &kp PG_UP  &kp LC(HOME)
-&trans  &msc SCRL_LEFT   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &trans  &kp HOME  &kp LC(LEFT)               &kp LC(RIGHT)  &kp END    &kp PG_DN  &kp LC(END)
-                         &bootloader     &to 0           &trans           &trans          &trans    &trans  &trans    &mt RIGHT_SHIFT BACKSPACE  &kp K_CMENU    &trans
+&trans  &none            &none           &none           &none            &none                             &none      &none                      &none          &none                 &none                  &none
+&trans  &kp EXCLAMATION  &kp AT          &kp HASH        &kp DOLLAR       &kp PERCENT                       &kp CARET  &kp AMPERSAND              &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&trans  &msc SCRL_RIGHT  &mkp MB2        &mmv MOVE_UP    &mkp MB1         &msc SCRL_UP                      &kp LEFT   &kp DOWN                   &kp UP         &kp RIGHT             &kp PG_UP              &kp LC(HOME)
+&trans  &msc SCRL_LEFT   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans    &trans  &kp HOME   &kp LC(LEFT)               &kp LC(RIGHT)  &kp END               &kp PG_DN              &kp LC(END)
+                         &bootloader     &to 0           &trans           &trans          &trans    &trans  &trans     &mt RIGHT_SHIFT BACKSPACE  &kp K_CMENU    &trans
             >;
 
             sensor-bindings =
