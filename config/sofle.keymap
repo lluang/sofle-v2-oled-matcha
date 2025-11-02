@@ -92,17 +92,17 @@
 
         rassign {
             bindings = <&rassign>;
-            key-positions = <18 17>;
+            key-positions = <29 30>;
         };
 
         rpipe {
             bindings = <&R_pipe>;
-            key-positions = <30 29>;
+            key-positions = <41 44>;
         };
 
         asterisk {
             bindings = <&kp HASH>;
-            key-positions = <41 44>;
+            key-positions = <17 18>;
         };
 
         equalcombo {
@@ -151,11 +151,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2            &kp N3              &kp N4              &kp N5                             &kp N6     &kp N7                     &kp N8               &kp N9           &kp N0         &kp DEL
-&kp TAB    &kp Q   &kp W             &kp E               &kp R               &kp T                              &kp Y      &kp U                      &kp I                &kp O            &kp P          &kp BACKSLASH
-&kp ESC    &kp A   &ht LEFT_ALT S    &ht LEFT_CONTROL D  &ht LEFT_SHIFT F    &lt 1 G                            &lt 2 H    &ht RSHIFT J               &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X             &kp C               &kp V               &kp B      &kp C_MUTE    &mkp MB1  &kp N      &kp M                      &kp COMMA            &kp DOT          &kp FSLH       &kp RSHFT
-                   &kp LEFT_CONTROL  &kp LEFT_GUI        &mt LEFT_SHIFT INS  &kp ENTER  &mo 2         &mo 1     &kp SPACE  &mt RIGHT_SHIFT BACKSPACE  &kp K_CMENU          &kp RIGHT_ALT
+&kp GRAVE  &kp N1            &kp N2            &kp N3          &kp N4              &kp N5                             &kp N6     &kp N7                     &kp N8               &kp N9               &kp N0                 &kp DEL
+&kp TAB    &kp Q             &kp W             &kp E           &kp R               &kp T                              &kp Y      &kp U                      &kp I                &kp O                &kp P                  &kp BACKSLASH
+&kp ESC    &kp A             &kp S             &kp D           &kp F               &kp G                              &kp H      &kp J                      &kp K                &kp L                &kp SEMICOLON          &kp SQT
+&kp LSHFT  &ht LEFT_SHIFT Z  &ht C_MENU X      &ht LEFT_ALT C  &ht LEFT_CONTROL V  &lt 1 B    &kp C_MUTE    &mkp MB1  &lt 2 N    &ht RIGHT_CONTROL M        &ht RIGHT_ALT COMMA  &ht LEFT_GUI PERIOD  &ht RIGHT_SHIFT SLASH  &kp RSHFT
+                             &kp LEFT_CONTROL  &kp LEFT_GUI    &mt LEFT_SHIFT INS  &kp ENTER  &mo 2         &mo 1     &kp SPACE  &mt RIGHT_SHIFT BACKSPACE  &kp K_CMENU          &kp RIGHT_ALT
             >;
 
             sensor-bindings =
@@ -176,7 +176,7 @@
 
             bindings = <
 &studio_unlock  &kp EXCL            &kp AT               &kp HASH       &kp DOLLAR            &kp PERCENT                      &kp CARET           &kp AMPERSAND  &kp STAR      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans          &kp LESS_THAN       &kp GREATER_THAN     &kp AMPS       &kp PIPE              &kp EXCL                         &kp SLASH           &kp N7         &kp N8        &kp N9                &kp ASTERISK           &trans
+&trans          &kp LESS_THAN       &kp GREATER_THAN     &kp PIPE       &kp AMPS              &kp EXCL                         &kp SLASH           &kp N7         &kp N8        &kp N9                &kp ASTERISK           &trans
 &trans          &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &kp BACKSLASH  &kp SQT               &kp GRAVE                        &kp MINUS           &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6          &kp PLUS               &trans
 &trans          &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp PIPE       &kp LS(SINGLE_QUOTE)  &kp LS(GRAVE)  &trans    &trans  &kp LS(UNDERSCORE)  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp EQUAL              &trans
                                     &trans               &to 0          &trans                &trans         &trans    &trans  &trans              &kp N0         &kp PERIOD    &bootloader
