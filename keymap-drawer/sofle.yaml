@@ -53,12 +53,12 @@ layers:
   - RSHFT
   - LEFT CONTROL
   - LEFT GUI
-  - {t: INS, h: LEFT SHIFT}
+  - {t: INS, h: ESCAPE}
   - ENTER
   - raise
   - lower
   - SPACE
-  - {t: BACKSPACE, h: RIGHT SHIFT}
+  - {t: BACKSPACE, h: RIGHT CONTROL}
   - CMENU
   - RIGHT ALT
   lower:
