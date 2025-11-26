@@ -151,11 +151,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1            &kp N2            &kp N3          &kp N4              &kp N5                             &kp N6     &kp N7                     &kp N8               &kp N9               &kp N0                 &kp DEL
-&kp TAB    &kp Q             &kp W             &kp E           &kp R               &kp T                              &kp Y      &kp U                      &kp I                &kp O                &kp P                  &kp BACKSLASH
-&kp ESC    &kp A             &kp S             &kp D           &kp F               &kp G                              &kp H      &kp J                      &kp K                &kp L                &kp SEMICOLON          &kp SQT
-&kp LSHFT  &ht LEFT_SHIFT Z  &ht C_MENU X      &ht LEFT_ALT C  &ht LEFT_CONTROL V  &lt 1 B    &kp C_MUTE    &mkp MB1  &lt 2 N    &ht RIGHT_CONTROL M        &ht RIGHT_ALT COMMA  &ht LEFT_GUI PERIOD  &ht RIGHT_SHIFT SLASH  &kp RSHFT
-                             &kp LEFT_CONTROL  &kp LEFT_GUI    &mt LEFT_SHIFT INS  &kp ENTER  &mo 2         &mo 1     &kp SPACE  &mt RIGHT_SHIFT BACKSPACE  &kp K_CMENU          &kp RIGHT_ALT
+&kp GRAVE  &kp N1            &kp N2            &kp N3          &kp N4              &kp N5                             &kp N6     &kp N7                       &kp N8               &kp N9               &kp N0                 &kp DEL
+&kp TAB    &kp Q             &kp W             &kp E           &kp R               &kp T                              &kp Y      &kp U                        &kp I                &kp O                &kp P                  &kp BACKSLASH
+&kp ESC    &kp A             &kp S             &kp D           &kp F               &kp G                              &kp H      &kp J                        &kp K                &kp L                &kp SEMICOLON          &kp SQT
+&kp LSHFT  &ht LEFT_SHIFT Z  &ht C_MENU X      &ht LEFT_ALT C  &ht LEFT_CONTROL V  &lt 1 B    &kp C_MUTE    &mkp MB1  &lt 2 N    &ht RIGHT_CONTROL M          &ht RIGHT_ALT COMMA  &ht LEFT_GUI PERIOD  &ht RIGHT_SHIFT SLASH  &kp RSHFT
+                             &kp LEFT_CONTROL  &kp LEFT_GUI    &mt ESCAPE INS      &kp ENTER  &mo 2         &mo 1     &kp SPACE  &mt RIGHT_CONTROL BACKSPACE  &kp K_CMENU          &kp RIGHT_ALT
             >;
 
             sensor-bindings =
