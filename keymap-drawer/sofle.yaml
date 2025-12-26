@@ -73,7 +73,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - <
   - '>'
@@ -134,7 +134,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -195,7 +195,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: default, h: toggle}
   - EP TOG
   - F1
   - F2
